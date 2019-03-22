@@ -266,5 +266,5 @@ cp -n data/assets/ssl-example/*.pem data/assets/ssl/
 
 docker-compose pull
 docker-compose up -d
-echo="Mailcow is now running! Pull up the dashboard at https://${MAILCOW_HOSTNAME} and log in with the username 'admin' and the password 'moohoo'!"
+echo "Mailcow is now running! Pull up the dashboard at https://${MAILCOW_HOSTNAME} and log in with the username 'admin' and the password 'moohoo'!"
 exit 1
